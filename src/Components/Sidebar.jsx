@@ -1,9 +1,10 @@
 import React from 'react';
 import './../App.scss';
+import Profile from './Profile';
 
-const Sidebar = () =>{
+const Sidebar = () => {
     return (
-        <div className="sidebar">
+        <div className="sidebar">        
             <nav className="nav-sidebar">
                 <a className="nav-item" href="#">Profile</a>
                 <a className="nav-item" href="#">Messages</a>

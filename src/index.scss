@@ -1,3 +1,4 @@
+@import "App.scss";
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,35 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #47525E;
+}
+ul>li{
+  list-style: none;
+}
+img{
+  padding: 0;
+  margin:0;
+}
+.button{
+  border: none;
+  text-decoration: none;
+  background-color:$bgc;
+  font-size: $fontSize;
+  color:#fff;
+  cursor: pointer;
+  &:focus{
+     outline: none;
+  }
+}
+.wrapper{
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
